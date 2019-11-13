@@ -1,9 +1,38 @@
+ul.a {
+  margin: 200;
+   text-align: float; 
+  list-style-position: inside;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
 }
+
+
+
 body {
   background-color: rgb(252, 254, 248);
   background-image: url(https://cityofpleasantridge.org/wp-content/uploads/2018/08/Dog-Park-e15331363516671.jpg);
@@ -45,7 +74,7 @@ nav {
   padding-left: 4%;
 }
 
-.address, .photo, .about, .social, .playtime {
+.address, .photo, .rule, .do, .play, .social, .copyright, .slide {
   margin: 0 auto;
   padding: 40px 0;
 }
@@ -167,7 +196,6 @@ div.desc {
 }
 
 
-
 /*------------------------
     Footer Section
 --------------------------*/
@@ -201,15 +229,15 @@ div.desc {
 .column {
   float: left;
   padding: 15px;
-  height: 200px; /* Should be removed. Only for demonstration */
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 .left {
-  width: 45%;
+  width: 50%;
 }
 
 .right {
-  width: 45%;
+  width: 50%;
 }
 
 /* Clear floats after the columns */
